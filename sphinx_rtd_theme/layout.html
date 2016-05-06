@@ -115,7 +115,7 @@ Like looking at code? Help us! https://github.com/certbot/certbot
 
           {% if theme_display_version %}
             {%- set nav_version = version %}
-            {% if READTHEDOCS and current_version %}
+            {% if current_version %}
               {%- set nav_version = current_version %}
             {% endif %}
             {% if nav_version %}
