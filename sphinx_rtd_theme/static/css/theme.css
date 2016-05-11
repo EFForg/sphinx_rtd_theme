@@ -5182,6 +5182,13 @@ span[id*='MathJax-Span'] {
   font-weight: 700;
   font-style: normal;
 }
+.wy-nav-top {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+.wy-nav-top i {
+  color: rgba(0, 0, 0, 0.9);
+}
+
 html, .wy-grid-for-nav, .wy-grid-for-nav, .wy-nav-side > * {
   background-color: #fff;
 }
