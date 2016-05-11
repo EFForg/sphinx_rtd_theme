@@ -5398,6 +5398,11 @@ nav.main-nav ul li.donate {
   }
 }
 
+nav.main-nav ul li.donate:hover:after {
+  position: absolute;
+  content: "❤";
+  margin-left: 5px;
+}
 nav.main-nav ul li.active {
   color: rgba(0, 0, 0, 0.95);
 }

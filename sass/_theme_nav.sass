@@ -121,11 +121,18 @@ nav.main-nav
           font-size: inherit
           +susy-breakpoint($md)
             font-size: $base-font-size / 1.15
+        &:hover
+          &:after
+            position: absolute
+            content: '❤'
+            margin-left: 5px
+
       &.active
         color: rgba(0, 0, 0, 0.95)
       &:hover
         &:not(.donate)
           color: rgba(0, 0, 0, 0.95)
+
 
 nav.main-nav.fixed
   position: fixed
