@@ -5375,6 +5375,7 @@ nav.main-nav ul li:last-of-type {
   }
 }
 nav.main-nav ul li.donate {
+  text-transform: none;
   color: #ec1c23;
   display: inline-block;
   position: absolute;
