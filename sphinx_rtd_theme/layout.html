@@ -104,9 +104,9 @@ Like looking at code? Help us! https://github.com/certbot/certbot
           {% block sidebartitle %}
 
           {% if logo and theme_logo_only %}
-            <a href="https://certbot.eff.org/">
+            <a href="{{ pathto('../', 1) }}">
           {% else %}
-            <a href="https://certbot.eff.org/" class="icon icon-home"> {{ project }}
+            <a href="{{ pathto('../', 1) }}" class="icon icon-home"> {{ project }}
           {% endif %}
 
           {% if logo %}
@@ -151,7 +151,7 @@ Like looking at code? Help us! https://github.com/certbot/certbot
       {# MOBILE NAV, TRIGGLES SIDE NAV ON TOGGLE #}
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="https://certbot.eff.org/">{{ project }}</a>
+        <a href="{{ pathto('../', 1) }}">{{ project }}</a>
       </nav>
 
 
