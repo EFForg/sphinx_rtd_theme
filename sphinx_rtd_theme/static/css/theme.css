@@ -5422,5 +5422,8 @@ nav.main-nav.fixed {
     margin-top: -60px;
   }
 }
+nav.wy-nav-top a {
+  color: #ec1c23;
+}
 
 /*# sourceMappingURL=theme.css.map */
