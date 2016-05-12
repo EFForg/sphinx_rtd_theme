@@ -5414,4 +5414,13 @@ nav.main-nav.fixed {
   position: fixed;
 }
 
+@media screen and (min-width: 48em) {
+  :target:before {
+    content: "";
+    display: block;
+    height: 60px;
+    margin: 60px;
+  }
+}
+
 /*# sourceMappingURL=theme.css.map */

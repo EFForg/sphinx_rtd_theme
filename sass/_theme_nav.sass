@@ -136,3 +136,11 @@ nav.main-nav
 
 nav.main-nav.fixed
   position: fixed
+
++susy-breakpoint($md)
+  \:target
+    &:before
+      content: ""
+      display: block
+      height: $nav-height
+      margin: $nav-height
