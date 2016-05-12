@@ -5423,7 +5423,7 @@ nav.main-nav.fixed {
   }
 }
 nav.wy-nav-top a {
-  color: #ec1c23;
+  color: #ec1c23 !important;
 }
 
 /*# sourceMappingURL=theme.css.map */
