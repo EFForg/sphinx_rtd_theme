@@ -5198,6 +5198,7 @@ html, .wy-grid-for-nav, .wy-grid-for-nav, .wy-nav-side > * {
 }
 
 .wy-menu a, .wy-menu li, .wy-menu li li a, .wy-menu li a, .wy-menu-vertical a, .wy-menu-vertical li, .wy-menu-vertical li li a, .wy-menu-vertical li a {
+  color: #404040;
   border: 1px solid transparent !important;
   background-color: transparent !important;
 }
