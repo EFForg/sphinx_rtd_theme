@@ -10,6 +10,8 @@
 {%- extends "layout.html" %}
 {% set title = _('Search') %}
 {% set script_files = script_files + ['_static/searchtools.js'] %}
+{# EFF edit: language_data is included here to fix compatibility with sphinx>=3.4.0 -#}
+{% set script_files = script_files + ['_static/language_data.js'] %}
 {% block footer %}
   <script type="text/javascript">
     jQuery(function() { Search.loadIndex("{{ pathto('searchindex.js', 1) }}"); });
