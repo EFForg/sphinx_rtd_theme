@@ -177,16 +177,8 @@ Like looking at code? Help us! https://github.com/certbot/certbot
 
   {% if not embedded %}
 
-    <script type="text/javascript">
-        var DOCUMENTATION_OPTIONS = {
-            URL_ROOT:'{{ url_root }}',
-            VERSION:'{{ release|e }}',
-            COLLAPSE_INDEX:false,
-            FILE_SUFFIX:'{{ '' if no_search_suffix else file_suffix }}',
-            HAS_SOURCE:  {{ has_source|lower }},
-            SOURCELINK_SUFFIX: '{{ sourcelink_suffix }}'
-        };
-    </script>
+    {# EFF edit: documentation_options is backported here to fix compatibility with newer sphinx -#}
+    <script id="documentation_options" data-url_root="{{ url_root }}" src="{{ pathto('_static/documentation_options.js', 1) }}"></script>
     {%- for scriptfile in script_files %}
       <script type="text/javascript" src="{{ pathto(scriptfile, 1) }}"></script>
     {%- endfor %}
