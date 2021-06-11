@@ -4240,7 +4240,7 @@ div[class^='highlight'] pre {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 80%;
-  color: #555;
+  color: #404040;
   white-space: nowrap;
 }
 .wy-menu-vertical ul {
@@ -4256,7 +4256,7 @@ div[class^='highlight'] pre {
   background: #e3e3e3;
 }
 .wy-menu-vertical li.current a {
-  color: gray;
+  color: #404040;
   border-right: solid 1px #c9c9c9;
   padding: 0.4045em 2.427em;
 }
@@ -4276,7 +4276,7 @@ div[class^='highlight'] pre {
   margin-left: -1.2em;
   font-size: 0.8em;
   line-height: 1.6em;
-  color: #4d4d4d;
+  color: #0d0d0d;
 }
 .wy-menu-vertical li.on a, .wy-menu-vertical li.current > a {
   color: #404040;
@@ -4293,13 +4293,13 @@ div[class^='highlight'] pre {
   background: #fcfcfc;
 }
 .wy-menu-vertical li.on a:hover span.toctree-expand, .wy-menu-vertical li.current > a:hover span.toctree-expand {
-  color: gray;
+  color: #404040;
 }
 .wy-menu-vertical li.on a span.toctree-expand, .wy-menu-vertical li.current > a span.toctree-expand {
   display: block;
   font-size: 0.8em;
   line-height: 1.6em;
-  color: #333333;
+  color: black;
 }
 .wy-menu-vertical li.toctree-l1.current li.toctree-l2 > ul, .wy-menu-vertical li.toctree-l2.current li.toctree-l3 > ul {
   display: none;
@@ -4317,7 +4317,7 @@ div[class^='highlight'] pre {
   padding: 0.4045em 4.045em;
 }
 .wy-menu-vertical li.toctree-l2 a:hover span.toctree-expand {
-  color: gray;
+  color: #404040;
 }
 .wy-menu-vertical li.toctree-l2 span.toctree-expand {
   color: #a3a3a3;
@@ -4337,7 +4337,7 @@ div[class^='highlight'] pre {
   border-bottom: none;
 }
 .wy-menu-vertical li.toctree-l3 a:hover span.toctree-expand {
-  color: gray;
+  color: #404040;
 }
 .wy-menu-vertical li.toctree-l3 span.toctree-expand {
   color: #969696;
@@ -5212,7 +5212,7 @@ html, .wy-grid-for-nav, .wy-grid-for-nav, .wy-nav-side > * {
 body.wy-body-for-nav {
   background-color: #f4f5f7;
   font-family: "Roboto";
-  font-weight: 300;
+  font-weight: 400;
 }
 @media screen and (min-width: 48em) {
   body.wy-body-for-nav {
@@ -5224,14 +5224,14 @@ body.wy-body-for-nav h1, body.wy-body-for-nav h2, body.wy-body-for-nav .rst-cont
   color: #666666;
 }
 body.wy-body-for-nav a {
-  font-weight: 400;
+  font-weight: 600;
   color: #40748e;
 }
 body.wy-body-for-nav a:visited {
   color: #40748e;
 }
 body.wy-body-for-nav h1 {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1.5em;
 }
 @media screen and (min-width: 48em) {
