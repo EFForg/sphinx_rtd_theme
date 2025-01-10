@@ -13,6 +13,8 @@
 Read the Docs Sphinx Theme
 **************************
 
+This is an old project that I'm fairly confident is no longer used and can be deleted.
+
 .. contents:: 
 
 View a working demo_ over on readthedocs.org_.
